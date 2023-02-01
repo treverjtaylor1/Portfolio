@@ -1,0 +1,60 @@
+header.home-header {
+  width: 100%;
+  background-color: black;
+}
+
+div.body-wrapper {
+  display: flex;
+}
+
+div.wrapper {
+  height: 100vh;
+  width: 50%;
+  background-color: black;
+}
+
+div.right-image {
+  height: 100vh;
+  width: 50%;
+  background-image: url("images/backgroundimg.jpg");
+  background-position: top center;
+}
+
+.main-menu-desktop {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30em;
+  margin-right: auto;
+  position: relative;
+  z-index: 0;
+}
+.main-menu-desktop ul li {
+  list-style-type: none;
+}
+.main-menu-desktop ul li a {
+  font-family: "Open Sans", sans-serif;
+  font-weight: bold;
+  color: rgba(255, 255, 255, 0.851) !important;
+  display: inline-block;
+  font-size: 2em;
+  font-weight: 800;
+  color: white;
+  overflow: hidden;
+  background: linear-gradient(to right, midnightblue, midnightblue 50%, rgba(255, 255, 255, 0.947) 50%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-size: 200% 100%;
+  background-position: 100%;
+  transition: background-position 275ms ease;
+  text-decoration: none;
+}
+.main-menu-desktop ul li a:hover {
+  background-position: 0 100%;
+}
+
+div.portfolio-wrapper {
+  height: 100vh;
+  width: 100%;
+}/*# sourceMappingURL=App.css.map */
